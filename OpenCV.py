@@ -150,5 +150,5 @@ for c in contours:
             #cv.drawContours(new_img,[approx], -1, (255, 0, 0), 3)
             print(cord[0][0]-cord[1][0])
             
-cv.imwrite('output.jpg',new_img)
+cv.imwrite('final.jpg',new_img)
 cv.waitKey(0)
